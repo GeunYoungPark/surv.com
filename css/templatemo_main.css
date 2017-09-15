@@ -267,7 +267,7 @@ blockquote p {
 .link {
 	text-decoration: none;
 	position: relative;
-	font-size: 7em;
+	font-size: 5em;
 	line-height: 1;
 /*	color: #fff;*/
 	font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
@@ -295,7 +295,7 @@ blockquote p {
 	width: 150%;
 	height: 2px;
 	background: #E3E8DC;
-	bottom: 45px;
+	bottom: 35px;
 	left: 100%;
 	z-index: -1;
 	-webkit-transition: -webkit-transform 0.8s;
