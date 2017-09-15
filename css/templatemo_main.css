@@ -262,7 +262,7 @@ blockquote p {
 .grid__title a{
 	outline: none;
 	text-decoration: none;
-	color: #1e1a1b;
+/*	color: #5e5c61;*/
 }
 .link {
 	text-decoration: none;
@@ -275,17 +275,20 @@ blockquote p {
 }
 /* nukun style - for survcorp title */
 .link--nukun {
-	color: #E3E8DC;
+	color: #E3E8DC; 
+    text-shadow: 0px 1px 1px rgba(0, 0, 0, 1);
 	font-weight: 900;
 	text-transform: uppercase;
 	overflow: hidden;
 	padding: 0;
 	-webkit-transition: color 0.3s;
 	transition: color 0.3s;
+	
 }
 /* text color change when hover*/
 .link--nukun:hover { /* text */
-	color: #5e5c61;
+	color: #4B4D4A ;
+	text-shadow:none;
 }
 /*  bar */
 .link--nukun::before,
@@ -295,11 +298,11 @@ blockquote p {
 	width: 150%;
 	height: 2px;
 	background: #E3E8DC;
-	bottom: 15px;
+	bottom: 17px;
 	left: 100%;
 	z-index: -1;
-	-webkit-transition: -webkit-transform 0.8s;
-	transition: transform 0.8s;
+	-webkit-transition: -webkit-transform 0.5s;
+	transition: transform 0.5s;
 	-webkit-transition-timing-function: cubic-bezier(0.2,1,0.3,1);
 	transition-timing-function: cubic-bezier(0.2,1,0.3,1);
 }
@@ -309,7 +312,7 @@ blockquote p {
 	-webkit-transform: translate3d(-300%,0,0) scale3d(0,1,1);
 	transform: translate3d(-300%,0,0) scale3d(0,1,1);
 }
-
+/* move bar*/
 .link--nukun:hover::before {
 	-webkit-transform: translate3d(300%,0,0) scale3d(0,1,1);
 	transform: translate3d(300%,0,0) scale3d(0,1,1);
